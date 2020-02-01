@@ -19,7 +19,7 @@
 import groovy.json.JsonSlurper
 
 metadata {
-	definition (name: "Generic HTTP Device - ESP8266 - Blinds", author: "hobbzey", namespace:"hobbzey") {
+	definition (name: "ESP8266_Blinds", author: "hobbzey", namespace:"hobbzey") {
 		capability "Switch"
 		attribute "triggerswitch", "string"
 		command "DeviceTrigger"
